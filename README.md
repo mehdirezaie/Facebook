@@ -1,17 +1,17 @@
 # Facebook Followers dataset
-In this project, I aim at finding the relationship between social media interactions and the stock market. Specifically, we would like to conduct a cross-correlation analysis between the data from Facbook and the dataset from New York Stock Exchange to test whether both observables follow the same pattern. If so, I would like to use machine learning techniques, such as Feed Forward Neural Networks and Gaussian Processes, to estimate the lows and highs of stock prices for a particular company. Some exploratory analysis on the Facebook dataset revelead that the variations of "Check Ins" counts has a periodic behavior. Focusing on DisneyLand Checkins variations, the pattern in social media interactions shows that people's visit to Disneyland rises about January as well as the stock prices of Walt Disney Co. Additionally I have found that the yearly average of Talking About counts for WWE is decreasing, and for Netflix is increasing at a lower pace. It seems in the future, we might expect a decrease in the stock prices of Netflix. Is it because of other companies providing better services, eg. Amazon Prime, or Hulu through Spotify? 
+In this project, I aim at finding the relationship between social media interactions and the stock market. Specifically, I would like to conduct a cross-correlation analysis between the Facbook Followers data and New York Stock Exchange datas to test whether both observables follow the same pattern. If so, I would like to use machine learning techniques, such as Feed Forward Neural Networks and Gaussian Processes, to estimate the lows and highs of stock prices for a particular company. My exploratory analyses on the Facebook dataset indicated that the variations of "Check Ins" counts has a periodic behavior. Focusing on the weekly variations of DisneyLand Check Ins, the pattern in social media interactions indicates that people's visit to Disneyland rises about January as well as the stock prices of Walt Disney Co. Additionally I have found that the yearly average of Talking About counts for WWE is decreasing, and for Netflix is increasing at a lower pace. It seems in the future, we might expect a decrease in the stock prices of Netflix. Is it because of other companies providing better services, eg. Amazon Prime, or Hulu through Spotify? 
 
 
 Here are some preliminary research on Facebook Followers dataset:
 ## Correlation Matrix between Facebook data attributes
-Based on this correlation matrix, it seems the number of "likes" is more correlated with the number of "talking about". It means people who are really activate on social media, tend to talk more. Also, to state the expected, the number of "check In" is more correlated with the number of "were here"
+Based on this correlation matrix, it indicates the number of "likes" is more correlated with the number of "talking about". It means people who are really activate on social media, tend to talk more and participate in the discussions. Also, to state the expected, the number of "check Ins" is more correlated with the number of "were here".
 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/corrmax.png" width="300" height="300">
 
 
 
 ## Highest Volatility 
-Let's look at the top five usernames in terms of number of likes, checkins, talking about, and were here counts. Facebook and Youtube possess highest number of likes, which is kind of expected. Top three in term of Check Ins counts belong to Disneyland!! It seems this company has done a good job in terms of attracting people.
+Let's look at the top five usernames in terms of number of likes, checkins, talking about, and were here counts. Facebook and Youtube possess highest number of likes, which is kind of expected. Top three in terms of Check Ins counts belong to Disneyland!! It seems this company has done a good job in terms of attracting people.
 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/barplots.png" width="800">
 
