@@ -21,13 +21,13 @@ To understand the dynamic of the Check In counts, I look at the weekly Check In 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/checkins.png" width="800">
 
 #### Comparison with Stock Market
-Based on the analysis on Check In counts, I realized that Disneyland business comes to fruition starting about January each year. Looking at the NYSE data from https://www.marketwatch.com/investing/stock/dis, as shown in the following, we can see a similar pattern in Walt Disney Co. stock prices. __I would like to conduct a cross correlation analysis to quantify the potential correlation between Facebook Check In counts and the stock price for Walk Disney Co., and train a Machine Learning model eg. Feed Forward Neural Network to predict the next low and high of the stock price.__
+Based on the analysis on Check In counts, I realized that Disneyland business comes to fruition starting about January each year. Looking at the NYSE data from https://www.marketwatch.com/investing/stock/dis, as shown in the following, we can see a similar pattern in the Walt Disney Co. stock prices. __As my main project, I would like to conduct a cross correlation analysis to quantify the potential correlation between Facebook Check In counts and the stock prices for Walk Disney Co., and train a Machine Learning model eg. Feed Forward Neural Network to predict the next lows and highs of Walt Disney Co.'s stock prices.__
 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/dis_nyse_stock.png" width="800">
 
 
 ## Monthly average in Talking About counts for TESLA, FORD, and CHEVROLET
-Another interesting thing I find in the Facebook dataset is that Facebook users tend to talk more about cars around January. In the following figure, I am showing the monthly average of Taling About counts for three companies, `Chevrolet`, `Ford`, and `Tesla`. All three cases share the same pattern.
+Another interesting thing I find in the Facebook dataset is that Facebook users tend to talk more about cars around January. In the following figure, I am showing the monthly average of Taling About counts for three companies, `Chevrolet`, `Ford`, and `Tesla`. All three cases share the same pattern, rising about January. This indicates that car companies introduce their new car models in January, and dealerships try to offer really good deals to get their old models off the parking lots. Facebook users are talking about new models and the deals of last year's cars. It would be worthwhile to conduct a cross correlation analysis to quantitatively model the relationship between the stock prices of car companies and Facebook users' activities.
 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/cars.png" width="800">
 
