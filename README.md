@@ -4,7 +4,7 @@ In this project, I aim at finding the relationship between social media interact
 
 Here are some preliminary research on Facebook Followers dataset:
 ## Correlation Matrix between Facebook data attributes
-Based on this correlation matrix, it indicates the number of "likes" is more correlated with the number of "talking about". It means people who are really activate on social media, tend to talk more and participate in the discussions. Also, to state the expected, the number of "check Ins" is more correlated with the number of "were here".
+This correlation matrix shows the linear Pearson's correlation coefficient for the attributes of the Facebook Followers dataset. It indicates that the number of "likes" is more correlated with the number of "talking about". It means people who are really activate on social media, tend to talk more and participate in the discussions. Also, to state the expected, the number of "check Ins" is more correlated with the number of "were here".
 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/corrmax.png" width="300" height="300">
 
