@@ -39,4 +39,4 @@ By looking at the yearly average of Talking About counts, I can see that people 
 
 
 
-The Jupyter notebook used to carry out these analysis is [here](https://github.com/mehdirezaie/Facebook/blob/master/FACEBOOK.ipynb). Should you have any questions about the specifics of the analyses, feel free to email me at medirz90@icloud.com.
+The Jupyter notebook used to carry out these analyses is [here](https://github.com/mehdirezaie/Facebook/blob/master/FACEBOOK.ipynb). Should you have any questions about the specifics of the analyses, feel free to email me at medirz90@icloud.com.
