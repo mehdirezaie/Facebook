@@ -20,8 +20,8 @@ To understand the dynamic of the Check Ins counts, I look at the weekly Check In
 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/checkins.png" width="800">
 
-#### Comparison with Stock Market
-Based on the analysis on Check Ins counts, I realized that Disneyland business comes to fruition starting about January each year. Looking at the NYSE data from https://www.marketwatch.com/investing/stock/dis, as shown in the following, we can see a similar pattern in the Walt Disney Co. stock prices. __As my main project, I would like to conduct a cross correlation analysis to quantify the potential correlation between Facebook Check Ins counts and the stock prices for Walk Disney Co., and train a Machine Learning model eg. Feed Forward Neural Network to predict the next lows and highs of Walt Disney Co.'s stock prices.__
+#### Comparison with the Stock Market
+Based on the analysis on Check Ins counts, I realized that Disneyland business is highly active starting about January each year. Looking at the NYSE data from https://www.marketwatch.com/investing/stock/dis, as shown in the following, we can see a similar pattern in the Walt Disney Co. stock prices. __As my main project, I would like to conduct a cross correlation analysis to quantify the potential correlation between Facebook Check Ins counts and the stock prices for Walk Disney Co., and train a Machine Learning model eg. Feed Forward Neural Network to predict the next lows and highs of Walt Disney Co.'s stock prices.__
 
 <img src="https://github.com/mehdirezaie/Facebook/blob/master/figs/dis_nyse_stock.png" width="800">
 
